@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Footer styles.css */
+a {
+    color: inherit; /* Menurunkan warna teks yang diwariskan dari elemen induk */
+    text-decoration: none; /* Menghilangkan garis bawah default pada tautan */
+  }
+  
+  a:hover {
+    text-decoration: underline; /* Garis bawah saat tautan dihover */
+  }
+  
